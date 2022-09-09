@@ -3,12 +3,11 @@
 /**
  * main - Entry point
  *
- * Return: Always 0 (Success)
+ * Return: 1 (As instructed)
  */
 
 int main(void)
 {
-	char str[] = "and that piece of art is useful\" - Dora Korpar, 2015-10-19\n";
-	fwrite(str, 1, sizeof(str), stderr);
+	fwrite("and that piece of art is useful\" - Dora Korpar, 2015-10-19\n", 1, sizeof(str), stderr);
 	return (1);
 }
