@@ -2,7 +2,7 @@
 
 /**
  * main - Entry point
- * 
+ *
  * Return: Always (0)
  */
 
@@ -13,6 +13,7 @@ int main(void)
 	long int sli;
 	long long int slli;
 	float sf;
+
 	printf("Size of a char: %lu byte(s)\n", sizeof(sc));
 	printf("Size of an int: %lu byte(s)\n", sizeof(si));
 	printf("size of a long int: %lu byte(s)\n", sizeof(sli));
