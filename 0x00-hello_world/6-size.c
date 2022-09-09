@@ -8,7 +8,6 @@
 
 int main(void)
 {
-	#warning Anything
 	char a;
 	int b;
 	long int c;
@@ -20,6 +19,6 @@ int main(void)
 	printf("size of a long int: %lu byte(s)\n", sizeof(c));
 	printf("Size of a long long int: %lu byte(s)\n", sizeof(d));
 	printf("Size of a float: %lu byte(s)\n", sizeof(e));
-	fprintf(stderr, "%s", "Anything\n");
+	fprintf(stderr, "%s", "");
 	return (0);
 }
