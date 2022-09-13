@@ -9,7 +9,15 @@
 
 int main(void)
 {
-	print_alphabet();
-	_putchar(10);
-	return (0);
+	void print_alphabet(void)
+	{
+        	int x;
+
+        	for(x = 97; x < 123; x++)
+        	{
+                	_putchar(x);
+        	}
+		_putchar(10);
+	}
+
 }
