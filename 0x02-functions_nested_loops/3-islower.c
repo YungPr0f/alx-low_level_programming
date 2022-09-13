@@ -2,6 +2,7 @@
 
 /**
  * _islower - Checks if a character is lowercase
+ * @parameterc: character
  *
  * Return: 1 if true, 0 if false
  *
