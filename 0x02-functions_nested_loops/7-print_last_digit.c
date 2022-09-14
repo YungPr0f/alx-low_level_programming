@@ -9,7 +9,10 @@
 
 int print_last_digit(int x)
 {
-	x = _abs(x);
+	/* Find absolute value of number */
+	if (x < 0)
+		x = x * -1;
+
 	x = x % 10;
 	_putchar(x + '0');
 	return (x);
