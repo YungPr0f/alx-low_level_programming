@@ -14,7 +14,10 @@ int main(void)
 	int x;
 
 	printf("%d, %d, ", a, b);
-	for (int i = 0; i < 48; i++)
+	
+	int i;
+
+	for (i = 0; i < 48; i++)
 	{
 		x = b + a;
 		printf("%d, ", x);
