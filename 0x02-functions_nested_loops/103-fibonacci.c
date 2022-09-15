@@ -18,10 +18,10 @@ int main(void)
 	while ((b + a) < 4000000)
 	{
 		x = b + a;
-		
+
 		if (x % 2 == 0)
 			y += x;
-		
+
 		a = b;
 		b = x;
 	}
