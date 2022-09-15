@@ -9,20 +9,22 @@
 
 int main(void)
 {
-	int a = 1;
-	int b = 2;
+	long int a = 1;
+	long int b = 2;
 	int i;
-	int x;
+	long int x;
 
-	printf("%d, %d, ", a, b);
+	printf("%li, %li", a, b);
 
 	for (i = 0; i < 48; i++)
 	{
 		x = b + a;
-		printf("%d, ", x);
+		printf(", %li", x);
 		a = b;
 		b = x;
 	}
+
+	printf("\n");
 
 	return (0);
 }
