@@ -15,11 +15,11 @@ char *_strdup(char *str)
 	char *copy;
 	int length;
 
-	length = _strlen(*str);
+	length = _strlen(str);
 
 	if (length == 0)
 	{
-		return (NULL)
+		return (NULL);
 	}
 	else
 	{
@@ -29,6 +29,6 @@ char *_strdup(char *str)
 			return (NULL);
 		}
 
-		return _strncpy(*copy, *str, length);
+		return _strcpy(*copy, *str);
 	}
 }
