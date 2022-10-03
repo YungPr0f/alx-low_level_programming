@@ -15,7 +15,7 @@ char *_strdup(char *str)
 	char *copy;
 	int length;
 
-	length = _strlen(str);
+	length = _strlen(char *str);
 
 	if (length == 0)
 	{
@@ -29,6 +29,6 @@ char *_strdup(char *str)
 			return (NULL);
 		}
 
-		return _strcpy(*copy, *str);
+		return _strcpy(char *copy, char *str, length);
 	}
 }
