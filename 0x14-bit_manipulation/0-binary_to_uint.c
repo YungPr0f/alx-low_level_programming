@@ -1,4 +1,9 @@
-#include "main.h"
+/*
+ * Auth: Lateef O Yusuf
+ * File: 0-binary_to_uint.c
+ */
+
+#include "holberton.h"
 
 /**
  * binary_to_uint - Converts a binary number to an unsigned int.
